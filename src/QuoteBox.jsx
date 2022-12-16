@@ -62,7 +62,8 @@ const UserBox = () => {
     
     <div className="BoxPhrase" style={{backgroundColor: "white"}}>
 <div className="p1">
-<img style={{backgroundColor:color[index]}} src={comillas} alt="" /><p style={{color: color[index]}}>"{quotes[index].quote}"</p></div>
+<i class="fa-solid fa-quote-left"  style={{color: color[index], fontSize:"68px"}}></i>
+<p style={{color: color[index]}}>"{quotes[index].quote}"</p></div>
 <div className="union"> 
       <h4 style={{color: color[index]}}>
         {quotes[index].author}
